@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>CS385 Spotify Search App</h1>
-        <img src={cs385spotify} alt="this is out spotify" />
+        <img src={cs385spotify} alt="this is our spotify" />
         <SearchForm
           searchTerm={this.state.searchTerm}
           onChange={this.onSearchFormChange}
